@@ -16,5 +16,11 @@ namespace ConexionPostgreSQL
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Clases.Conexion objetoConexion = new Clases.Conexion();
+            objetoConexion.establecerConexion();
+        }
     }
 }
